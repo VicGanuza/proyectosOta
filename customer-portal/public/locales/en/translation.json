@@ -1,0 +1,28 @@
+{
+  "language": "Languange",
+  "logout": "Logout",
+  "spanish": "Spanish",
+  "english": "English",
+  "indicators": "Indicators",
+  "powerBiEmbedded": "Power Bi Embedded",
+  "helpDesk": "Help Desk",
+  "contentProvider": "Content Provider",
+  "administration": "Administration",
+  "groups": "Groups",
+  "users": "Users",
+  "graphics": "Graphics",
+  "carousel": {
+    "caption1": {
+      "title": "We Can, We Care",
+      "description": "Our focus: safe, efficient and reliable services in constructing and operating the facilities... <br/><a href='https://www.otamerica.com/nuevoDise%C3%B1o/#/otamericaAsTank' target='_blank'>Keep reading...</a>"
+    },
+    "caption2": {
+      "title": "We Store",
+      "description": "We are one of the world’s leading independent storage partners for oils, gases and chemicals... <br/><a href='https://www.otamerica.com/nuevoDise%C3%B1o/#/businessAreasAndTankTerminals' target='_blank'>Keep reading...</a>"
+    },
+    "caption3": {
+      "title": "We Are Committed",
+      "description": "Safeguarding health, safety, security and environmental protection is a priority for us... <br/><a href='https://www.otamerica.com/nuevoDise%C3%B1o/#/hsse' target='_blank'>Keep reading...</a> "
+    }
+  }
+}

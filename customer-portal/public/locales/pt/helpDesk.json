@@ -1,0 +1,17 @@
+{
+  "contactTitle": "",
+  "name": "",
+  "namePlaceholder": "",
+  "nameRequired": "",
+  "lastname": "",
+  "lastnamePlaceholder": "",
+  "lastnameRequired": "",
+  "mail": "",
+  "mailPlaceholder": "",
+  "mailRequired": "",
+  "message": "",
+  "messagePlaceholder": "",
+  "messageRequired": "",
+  "send": "",
+  "cancel": ""
+}

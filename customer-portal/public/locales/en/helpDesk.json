@@ -1,0 +1,17 @@
+{
+  "contactTitle": "Contact Form",
+  "name": "Name",
+  "namePlaceholder": "Type your name",
+  "nameRequired": "Name is requierd",
+  "lastname": "Lastname",
+  "lastnamePlaceholder": "Type your lastname",
+  "lastnameRequired": "Lastname is requierd",
+  "mail": "Email",
+  "mailPlaceholder": "Type an email where we can contact you",
+  "mailRequired": "Email is requierd",
+  "message": "Message",
+  "messagePlaceholder": "Type your message",
+  "messageRequired": "Message is requierd",
+  "send": "Send",
+  "cancel": "Cancel"
+}

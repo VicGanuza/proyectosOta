@@ -1,0 +1,17 @@
+{
+  "contactTitle": "Formulario de Contacto",
+  "name": "Nombre",
+  "namePlaceholder": "Ingrese su nombre",
+  "nameRequired": "El nombre es obligatorio",
+  "lastname": "Apellido",
+  "lastnamePlaceholder": "Ingrese su apellido",
+  "lastnameRequired": "El apellido es obligatorio",
+  "mail": "Correo Electrónico",
+  "mailPlaceholder": "Ingrese un correo electrónico donde nos contactaremos con usted",
+  "mailRequired": "El correo electrónico es obligatorio",
+  "message": "Mensaje",
+  "messagePlaceholder": "Ingrese el mensaje",
+  "messageRequired": "El mensaje es obligatorio",
+  "send": "Enviar",
+  "cancel": "Cancelar"
+}

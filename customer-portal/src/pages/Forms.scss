@@ -1,0 +1,94 @@
+.list-group{
+  max-height: 300px;
+  overflow-y: scroll;
+}
+.btn{
+  &.btn-outline-success {
+    --bs-btn-border-color: #46b7a9;
+    --bs-btn-color: #46b7a9;
+    --bs-btn-hover-bg: rgb(70, 183, 169);
+    --bs-btn-hover-border-color: #46b7a9;
+    --bs-btn-active-bg: #36A2A8;
+    --bs-btn-active-border-color: #36A2A8;
+  }
+  &.btn-outline-danger {
+    --bs-btn-border-color: #2962ff;
+    --bs-btn-color: #2962ff;
+    --bs-btn-hover-bg: #2962ff;
+    --bs-btn-hover-border-color: #2962ff;
+    --bs-btn-active-bg: #005aa6;
+    --bs-btn-active-border-color: #005aa6;
+  }
+}
+.form-check-input{
+  &:checked {
+    background-color: #005aa6;
+    border-color: #005aa6;
+  }
+  &:valid {
+    border-color: #46b7a9;
+  }
+  &:focus{
+    --bs-form-switch-bg: url('data:image/svg+xml,%3csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%27-4 -4 8 8%27%3e%3ccircle r=%273%27 fill=%27rgba%2870, 183, 169, 1%29%27/%3e%3c/svg%3e') !important;
+  }
+} 
+
+.was-validated {
+  .form-control {
+    &:valid {
+      &:focus{ 
+        border-color:#46b7a9;
+        box-shadow: 0 0 0 0.25rem rgba(70,183,169, 0.25);
+      }
+    }
+   
+    &:invalid{
+      border-color: #005aa6;
+      background-image: url('data:image/svg+xml,%3csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 12 12%27 width=%2712%27 height=%2712%27 fill=%27none%27 stroke=%27%23005aa6%27%3e%3ccircle cx=%276%27 cy=%276%27 r=%274.5%27/%3e%3cpath stroke-linejoin=%27round%27 d=%27M5.8 3.6h.4L6 6.5z%27/%3e%3ccircle cx=%276%27 cy=%278.2%27 r=%27.6%27 fill=%27%23005aa6%27 stroke=%27none%27/%3e%3c/svg%3e');
+      &:focus {
+        border-color: #005aa6;
+        box-shadow: 0 0 0 0.25rem rgba(0,90,166, 0.25);
+      }
+    }
+  }
+
+  /* .input-group {
+    > {
+      .form-control:not(:focus){
+        z-index: 0;
+        &:valid,
+        &:invalid{
+          z-index: 0;
+        }
+      }
+    }
+  } */
+  .form-check-input{
+    &:valid {
+      &:checked {
+        background-color: #005aa6;
+        border-color: #005aa6 ; 
+      }
+      &:focus{
+        --bs-form-switch-bg: url('data:image/svg+xml,%3csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%27-4 -4 8 8%27%3e%3ccircle r=%273%27 fill=%27rgba%2870, 183, 169, 1%29%27/%3e%3c/svg%3e') !important;
+      }
+    }
+  } 
+}
+/* .input-group {
+  > {
+    .form-control:focus{
+      z-index: 0;
+      &:valid,
+      &:invalid{
+        z-index: 0;
+      }
+    }
+  }
+} */
+.valid-feedback{
+  color: #46b7a9;
+}
+.invalid-feedback {
+  color: #005aa6
+}

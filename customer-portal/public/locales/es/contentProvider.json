@@ -1,0 +1,35 @@
+{
+  "title": "Proveedor de Contenidos",
+  "websiteOwnerTitle": "Propietario del sitio web",
+  "websiteOwnerCompany": "Oiltanking GmbH",
+  "websiteOwnerAddress": "Koreastraße 7",
+  "websiteOwnerCity": "20457 Hamburgo",
+  "websiteOwnerCountry": "Alemania",
+  "websiteOwnerManagement": "Gestión",
+  "websiteOwnerPersonal": "Donath Holger (CEO)",
+  "websiteOwner": {
+    "title": "Propietario del sitio web",
+    "company": "Oiltanking GmbH",
+    "address": "Koreastraße 7",
+    "city": "20457 Hamburgo",
+    "country": "Alemania",
+    "management": "Gestión",
+    "personal": "Donath Holger (CEO)"
+  },
+  "websiteContents": {
+    "title": "Contenidos del sitio web",
+    "company": "Oiltanking GmbH",
+    "address": "Koreastraße 7",
+    "city": "20457 Hamburgo",
+    "country": "Alemania",
+    "management": "Gestión"
+  },
+  "websiteProgramming": {
+    "title": "Programación del sitio web",
+    "company": "Victoria Ganuza",
+    "description": "Desarrolladora Web",
+    "city": "8000 Bahía Blanca",
+    "country": "Argentina",
+    "link": "https://www.linkedin.com/in/victoriaganuza/"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "language": "Idioma",
+  "logout": "Salir",
+  "spanish": "Español",
+  "english": "Inglés",
+  "indicators": "Indicadores",
+  "administration": "Administración",
+  "powerBiEmbedded": "Power Bi Embebidos",
+  "helpDesk": "Servicio al Cliente",
+  "contentProvider": "Proveedor de Contenidos",
+  "groups": "Grupos",
+  "users": "Usuarios",
+  "graphics": "Gráficos",
+  "carousel": {
+    "caption1": {
+      "title": "We Can, We Care",
+      "description": "Ponemos nuestro empeño en prestar servicios seguros, eficientes y fiables en la construcción y operación de nuestras instalaciones... <br/><a href='https://www.otamerica.com/nuevoDise%C3%B1o/#/otamericaAsTank' target='_blank'>Continuar leyendo...</a> "
+    },
+    "caption2": {
+      "title": "We Store",
+      "description": "Somos uno de los principales socios independientes a nivel mundial para el almacenamiento de petróleo, gases y productos químicos... <br/><a href='https://www.otamerica.com/nuevoDise%C3%B1o/#/businessAreasAndTankTerminals' target='_blank'>Continuar leyendo...</a> "
+    },
+    "caption3": {
+      "title": "We Are Committed",
+      "description": "La higiene, la seguridad, la seguridad patrimonial y la protección del medio ambiente son prioritarias para nosotros... <br/><a href='https://www.otamerica.com/nuevoDise%C3%B1o/#/hsse' target='_blank'>Continuar leyendo...</a> "
+    }
+  }
+}

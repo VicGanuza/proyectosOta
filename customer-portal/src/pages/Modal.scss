@@ -1,0 +1,53 @@
+.modal-content {
+  a, .btn-link {
+    color: #005aa6;
+  }
+}
+.modal-title {
+  color: #2962ff;
+  font-weight: bold;
+}
+.alert {
+  position: fixed !important;
+  top: 0;
+  width: 100%;
+  left: 0;
+  z-index: 20;
+  .alert-heading {
+    &.h4 {
+      color: #FFFFFF;
+    }
+  }
+  &.alert-danger {
+    --bs-alert-bg: #005aa6;
+    --bs-alert-border-color: #005aa6;
+  }
+  &.alert-success {
+    --bs-alert-bg: #46b7a9;
+    --bs-alert-border-color: #46b7a9;
+  }
+  .btn-close {
+    --bs-btn-close-bg: url('data:image/svg+xml,<svg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 16 16%27 fill=%27%23FFF%27><path d=%27M.293.293a1 1 0 0 1 1.414 0L8 6.586 14.293.293a1 1 0 1 1 1.414 1.414L9.414 8l6.293 6.293a1 1 0 0 1-1.414 1.414L8 9.414l-6.293 6.293a1 1 0 0 1-1.414-1.414L6.586 8 .293 1.707a1 1 0 0 1 0-1.414z%27/></svg>');
+  }
+}
+
+.modal-footer {
+  .btn-secondary {
+    --bs-btn-bg: #2962ff;
+    --bs-btn-border-color: #2962ff;
+    --bs-btn-color: #FFFFFF;
+    --bs-btn-hover-bg: #005aa6;
+    --bs-btn-hover-border-color: #005aa6;
+    --bs-btn-active-bg: #005aa6;
+    --bs-btn-active-border-color: #005aa6;
+  }
+  .btn-danger{
+    --bs-btn-bg: #46b7a9;
+    --bs-btn-border-color: #46b7a9;
+    --bs-btn-color: #FFFFFF;
+    --bs-btn-hover-bg: #36A2A8;
+    --bs-btn-hover-border-color: #36A2A8;
+    --bs-btn-active-bg: #36A2A8;
+    --bs-btn-active-border-color: #36A2A8;
+  }
+}

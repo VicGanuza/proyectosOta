@@ -1,0 +1,92 @@
+@import '~bootstrap/scss/bootstrap';
+
+.App {
+  text-align: center;
+  margin-bottom: 100px;
+  .note {
+    color: #005aa6;
+    font-weight: bold;
+  }
+}
+
+.App-logo {
+  height: 20vmin;
+  pointer-events: none;
+}
+
+/* @media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+} */
+
+.App-header {
+  background-color: #106FA7;
+  /*min-height: 100vh;*/
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  justify-content: start;
+  text-align: start;
+  font-size: calc(10px + 2vmin);
+  color: #FFFFFF;
+}
+
+.App-link {
+  color: #61dafb;
+}
+.App-intro {
+  padding: 30px;
+  min-height: 70vmin;
+  h1, h2, h3, h4, h5, h6 {
+    color: #005aa6;
+    font-weight: 600;
+   
+  }
+  @media(max-width:576px) {
+    padding: 30px 5px;
+    .container {
+      max-width: 100%;
+    }
+  }
+}
+
+.news-content {
+  margin-top: 30px;
+  div {
+    padding: 10px;
+  }
+  @media(max-width:576px) {
+    margin-top: 30px;
+  }
+}
+
+.faqs-content {
+  .accordion {
+    margin-top: 30px;
+    .accordion-body{
+      text-align: justify;
+    }
+    .accordion-button{
+      color:#46b7a9;
+      font-weight: bold;
+    }
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.comment-content {
+  text-align: start;
+  margin-top: 30px;
+  h6 {
+    color: #005aa6;
+    font-weight: bold;
+  }
+}

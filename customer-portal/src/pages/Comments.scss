@@ -1,0 +1,92 @@
+.comment-content {
+  .avatar {
+    background-color: #46b7a9;
+    border-radius: 100% !important;
+    justify-content: center;
+    font-size: 22px;
+    width: 62px;
+    color: #ffffff;
+    font-weight: bold;
+    margin-right: 5px;
+  }
+  .comment-history {
+    display: flex;
+    margin-top: 20px;
+    .avatar {
+      float: left;
+      display: flex;
+      align-items: center;
+      height: 62px;
+      &.isAdmin {
+        background-color: #005aa6;
+      }
+    }
+    .comment-history-content{
+      margin-left: 10px;
+      .comment-date {
+        color:#005aa6;
+        font-weight: bold;
+      }
+      .comment-footer {
+        button {
+          &.primary{
+            color:rgb(0, 90, 166);
+          }
+          &.secondary {
+            color: #46b7a9;
+          }
+        }
+      }
+    }
+    form {
+      display: none;
+      &.active {
+        display: block;
+      }
+    }
+  }
+  .input-group {
+    position: static;
+    textarea {
+      position: static;
+    }
+  }
+  .comment-answer {
+    display: flex;
+    .avatar {
+      width: 50px;
+      height: 50px;
+      font-size: 18px;
+    }
+  }
+  .accordion {
+    --bs-accordion-btn-icon: url("data:image/svg+xml,<svg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 16 16%27 fill=%27%23005aa6%27><path fill-rule=%27evenodd%27 d=%27M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z%27/></svg>");
+    --bs-accordion-btn-active-icon: url("data:image/svg+xml,<svg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 16 16%27 fill=%27%2346b7a9%27><path fill-rule=%27evenodd%27 d=%27M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z%27/></svg>");
+    .accordion-item {
+      border: none;
+    }
+    .accordion-button {
+      color:#005aa6;
+      font-weight: bold;
+      position: static;
+      &:not(.collapsed){
+        background-color: #ffffff;
+      }
+      &:focus {
+        box-shadow: none;
+      }
+    }
+  }
+  .button-content {
+    height: 45px;
+    button {
+      font-size: 14px;
+      &.primary{
+        color:rgb(0, 90, 166);
+      }
+      &.secondary {
+        color: #46b7a9;
+      }
+    }
+  }
+}

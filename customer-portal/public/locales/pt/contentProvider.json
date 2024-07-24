@@ -1,0 +1,34 @@
+{
+  "title": "Content Provider",
+  "websiteOwnerTitle": "Website Owner",
+  "websiteOwnerCompany": "Oiltanking GmbH",
+  "websiteOwnerAddress": "Koreastraße 7",
+  "websiteOwnerCity": "20457 Hamburg",
+  "websiteOwnerCountry": "Germany",
+  "websiteOwnerManagement": "Management",
+  "websiteOwnerPersonal": "Donath Holger (CEO)",
+  "websiteContents": {
+    "title": "Website Contents",
+    "company": "Oiltanking GmbH",
+    "address": "Koreastraße 7",
+    "city": "20457 Hamburg",
+    "country": "Germany",
+    "management": "Management",
+    "personal": "Donath Holger (CEO)"
+  },
+  "websiteDesign": {
+    "title": "Website Design",
+    "company": "raz design",
+    "address": "Ralf Reszeleit <br> Große Bleichen 21 a/b (Galleria)",
+    "city": "20354 Hamburg",
+    "country": "Germany"
+  },
+  "websiteProgramming": {
+    "title": "Website Programming",
+    "company": "Victoria Ganuza",
+    "description": "Web Developer",
+    "city": "8000 Bahía Blanca",
+    "country": "Argentina",
+    "link": "https://www.linkedin.com/in/victoriaganuza/"
+  }
+}

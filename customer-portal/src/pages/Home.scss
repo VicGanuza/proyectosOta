@@ -1,0 +1,21 @@
+.carousel {
+  z-index: -1;
+  .carousel-inner {
+    /*height: 450px;*/
+    .carousel-caption {
+      width: 370px;
+      margin: 0 auto;
+      color: #000000de;
+      background: #ffffff;
+      opacity: 0.8;
+      padding: 1.25rem;
+    }
+    h5 {
+      color: #2962ff;
+      text-transform: uppercase;
+    }
+    p {
+      text-align: justify;
+    }
+  }
+}

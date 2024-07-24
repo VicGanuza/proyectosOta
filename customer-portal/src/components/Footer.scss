@@ -1,0 +1,25 @@
+.footer {
+  bottom: 0;
+  position: sticky;
+  box-shadow: 0 -2px #005aa6;
+  background-color: #FFFFFF;
+  z-index: 10;
+  .section-content {
+    text-align: start;
+    margin: 0 10px;
+    font-size: 14px;
+    h6 {
+      color: #005aa6;
+    }
+  }
+  .nav-link {
+    font-weight: 700;
+    color: #828282;
+    text-transform: uppercase;
+    
+    &:hover{
+      background-color: #FFFFFF;
+      color: #005aa6;
+    }
+  }
+}

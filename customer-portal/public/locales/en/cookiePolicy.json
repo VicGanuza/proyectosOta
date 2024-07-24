@@ -1,0 +1,38 @@
+{
+  "title": "Política de Cookies",
+  "modal": {
+    "title": "About cookies on this website",
+    "description": "This site uses cookies strictly necessary for our site to function. For more information about the cookies we use, please see our <a href='#/cookie-policy'>Cookie Policy.</a>",
+    "accept": "Accept",
+    "reject": "Reject"
+  },
+  "p1": "Nuestra web utiliza cookies propias con la finalidad de mejorar los servicios de navegación. Usted puede rechazar o deshabilitar el uso de las cookies a través de las opciones de su navegador. Para que la web funcione correctamente, es necesario que acepte el uso de las cookies.",
+  "whatIsCookie": "¿Qué es una cookie?",
+  "wc1": "Una cookie es un fichero que se descarga en tu ordenador cuando accedes a determinadas páginas web, como por ejemplo, esta. Las cookies permiten a dichas páginas web, entre otras cosas, almacenar y recuperar información sobre tus hábitos de navegación o los de tu equipo y, dependiendo de la información que contengan y de la forma en que utilices tu equipo, pueden utilizarse para reconocerte.",
+  "wc2": "En función de su permanencia y de la finalidad para la que se utilicen los datos obtenidos a través de las cookies, existen varios tipos.",
+  "wc3": "Así, inicialmente las cookies pueden ser “de sesión”, que expiran cuando el usuario acaba la navegación y cierra el explorador, y “permanentes” que expiran cuando hayan cumplido la función para que están concebidas o cuando el usuario las borra.",
+  "wc4": "Igualmente, dependiendo de la finalidad para la que se utilizan, las cookies pueden ser:",
+  "wcl1": "<strong>Cookies analíticas.</strong> Las cookies analíticas recogen información para evaluar el uso que usted hace de la Web y la actividad general de la misma. La analítica de la Web es la medida, recolección, análisis y creación de informes de los datos de Internet con el propósito de entender y optimizar el uso de sitio Web.",
+  "wcl2": "<strong>Cookies sociales.</strong> Las cookies sociales son necesarias para las redes sociales externas (Facebook, Google, Twitter, Pinteres,Discus, etc…). Su función es controlar la interacción con los widgets sociales dentro de la página.",
+  "wcl3": "<strong>Cookies de afiliados.</strong> Las cookies de afiliados permiten hacer un seguimiento de las visitas procedentes de otras Webs, con las que nuestra web tiene un contrato de afiliación.",
+  "wcl4": "<strong>Cookies de publicidad y comportamentales.</strong> Las cookies de publicidad y comportamentales recogen información sobre sus preferencias y elecciones personales en este sitio Web. Permiten adecuar el contenido de la publicidad para que esta sea relevante para el usuario y para evitar mostrar anuncios que el usuario ya haya visto.",
+  "wcl5": "<strong>Cookies técnicas.</strong> Las cookies técnicas son las estrictamente necesarias para el uso de este sitio Web, permiten al usuario la navegación a través de la página Web o aplicación y la utilización de las diferentes opciones o servicios que en ella existen.",
+  "wcl6": "<strong>Cookies de personalización.</strong> Son aquéllas que permiten al usuario acceder al servicio con algunas características de carácter general predefinidas en su terminal o que el propio usuario defina. Por ejemplo, el idioma, el tipo de navegador a través del cual accede al servicio, el diseño de contenidos seleccionado, geolocalización del terminal y la configuración regional desde donde se accede al servicio.",
+  "wcl7": "<strong>Cookies de terceros.</strong> En algunas páginas Web se pueden instalar cookies de terceros que permiten gestionar y mejorar los servicios ofrecidos.",
+  "cookieTypes": "¿Qué tipos de cookies utiliza este sitio web?",
+  "cookieTypesDescription": "completar info",
+  "cookiesAdmin": "Para llevar a cabo la gestión de las cookies deberá seguir las siguientes instrucciones:",
+  "browsers": "Navegadores PC",
+  "b1":"<strong>Mozilla Firefox:</strong> Seleccione Herramientas en el menú y luego Opciones. Haga clic en la pestaña de Privacidad. Active o desactive la casilla “Aceptar cookies de las webs” o “decir a los sitios web que no quiero ser rastreado”, dependiendo de la versión de su navegador.",
+  "b2":"<strong>Microsoft Internet Explorer:</strong> Seleccione Herramientas en el menú y luego Opciones de Internet. Haga clic en la pestaña de Privacidad. Seleccione la configuración deseada y pulse el botón de configuración avanzada. Active la casilla “Sobrescribir la administración automática de cookies”. Marque las casillas “Activar” o “Bloquear”.",
+  "b3":"<strong>Google Chrome:</strong> Haga clic en el menú de Chrome situado en la barra de herramientas del navegador. Seleccione Configuración y haga clic en Mostrar opciones avanzadas. En la sección Privacidad, haz clic en el botón Configuración de contenido. Elija la configuración de cookies que desea.",
+  "b4":"<strong>Apple safari:</strong> Seleccione Safari en el menú, a continuación, Preferencias. Haga clic en el panel Privacidad y elija la configuración de cookies que desea.",
+  "b5":"<strong>Opera:</strong> Haga clic en el menú de Opera y seleccione Configuración. Haga clic en Opciones y selecciona la pestaña de Avanzado. En las opciones de la izquierda seleccione Cookies. Elija los ajustes que desea.",
+  "declineCookies": "En caso de que no permitas el uso de cookies durante tu navegación por este Sitio web, OTAMERICA - COSTUMER WEB PORTAL no puede garantizar que la información que se muestre durante la navegación sea completa y/o posible.",
+  "mobileBrowsers": "Navegadores dispositivos móviles",
+  "mb1":"<strong>IOS:</strong> Desde la pantalla de inicio, seleccione Configuración. Seleccione Safari y haga clic en Aceptar Cookies. Elija la configuración que prefiera.",
+  "mb2":"<strong>Android:</strong> Inicie la aplicación de navegador. Haga clic en el botón Menú. Seleccione la opción Más y, a continuación, Configuración. Marque o desmarque Aceptar cookies.",
+  "mb3":"<strong>Windows Phone 7:</strong> Desde la pantalla de inicio, haga clic en la flecha derecha. Vaya a Configuración y seleccione Internet Explorer. Marque o desmarque Aceptar cookies.",
+  "cookiesBlocked": " El bloqueo del uso de cookies en su navegación, puede hacer que algunos servicios o funciones del sitio web no estén disponibles."
+}
+ 
