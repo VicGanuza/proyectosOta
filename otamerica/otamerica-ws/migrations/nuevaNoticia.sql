@@ -1,0 +1,1 @@
+INSERT INTO `w290045_otam`.`news` (`headline`, `date`, `image`, `readmore`) VALUES ('otamericaUnited', '2024-04-16', 'image006.png', '/otamericaUnited');
