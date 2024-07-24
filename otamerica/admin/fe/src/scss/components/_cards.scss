@@ -1,0 +1,28 @@
+.m-cards {
+  display: grid;
+  &.m-cards--2 {
+    grid-template-columns: 1fr 1fr;
+    column-gap: 10px;
+    row-gap: 10px;
+  }
+
+  .m-card {
+    padding: 50px;
+    text-align: center;
+    border: 1px solid $color-secondary;
+    &:hover {
+      color: $color-font-white;
+      background-color: $color-base;
+    }
+  }
+
+  a {
+    &.m-card{
+      color: $color-font-primary;
+      font : {
+        weight: bold;
+        size: 1.2rem;
+      }
+    }
+  }
+}

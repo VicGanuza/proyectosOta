@@ -1,0 +1,42 @@
+.m-list{
+  display: block;
+  padding: 8px 0;
+  position: static;
+  min-width: 550px;
+  transition: box-shadow .28s cubic-bezier(.4,0,.2,1);
+
+  .m-list--row{
+    flex: 0 1 auto;
+    position: relative;
+    display: flex;
+    max-width: 100%;
+    transition: .3s cubic-bezier(.25,.8,.5,1);
+    border-bottom: 1px solid #C0C0C0;
+
+    .m-list--cell {
+      align-items: center;
+      display: flex;
+      flex-wrap: wrap;
+      flex: 1 1;
+      overflow: hidden;
+      padding: 12px 0;
+      justify-content: center;
+      border-right: 1px solid #C0C0C0;
+    }
+
+    .m-list--actions {
+      display: flex;
+      align-items: center;
+    }
+
+    &.header {
+      .m-list--actions{
+        min-width: 60px;
+      }
+    }
+  }
+  &--header {
+    display: flex;
+    justify-content: end;
+  }
+}

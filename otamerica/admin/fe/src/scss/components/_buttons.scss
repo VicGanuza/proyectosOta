@@ -1,0 +1,174 @@
+[data-btn] {
+  //@include transition(background, $animation-time, ease);
+
+  border: {
+    color: transparent;
+    style: solid;
+    width: 1px;
+    radius: 10px;
+  }
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 400;
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+  -webkit-appearance: none;
+
+  &:hover {
+    text-decoration: none;
+  }
+
+  &[disabled="disabled"] {
+    opacity: 0.3;
+  }
+}
+// BTN CIRCLE
+[data-btn~="circle"] {
+  /* @include border-radius(50%);
+  @extend %headline-5;
+ */
+  border-radius: 50%;
+  border: {
+    style: solid;
+    width: 1px;
+  }
+  height: $btn-icon;
+  padding: 0;
+  width: $btn-icon;
+
+  > span {
+    display: table-cell;
+    height: ($btn-icon - 2);
+    width: ($btn-icon - 2);
+    line-height: ($btn-icon - 5);
+    vertical-align: top;
+  }
+
+  &[data-btn~="nav"] {
+    margin: 10px;
+    vertical-align: top;
+  }
+
+  &[data-btn~="small"] {
+    font-size: torem(17px);
+    height: $btn-icon-small;
+    width: $btn-icon-small;
+
+    > span {
+      line-height: $btn-icon-small - 5;
+      vertical-align: top;
+    }
+  }
+
+  /* &[data-btn~="primary--inv"] {
+    border-color: $color-font-secondary;
+  }
+
+  &[data-btn~="secondary"] {
+    background-color: $color-primary;
+    border-color: $color-font-secondary;
+    color: $color-font-secondary;
+
+    &.is--active {
+      background-color: $color-secondary;
+      border-color: $color-secondary;
+      color: $color-font-primary;
+    }
+  }
+
+  &[data-btn~="transparent"] {
+    background-color: transparent;
+    border-color: $color-primary;
+    color: $color-font-primary;
+
+    &.is--active {
+      background-color: $color-secondary;
+      border-color: $color-secondary;
+    }
+  }
+
+  &[data-btn~="transparent--inv"] {
+    background-color: transparent;
+    border-color: $color-font-secondary;
+    color: $color-font-secondary;
+
+    &.is--active {
+      background-color: $color-secondary;
+      border-color: $color-secondary;
+      color: $color-font-primary;
+    }
+  }
+
+  &[data-btn~="red"] {
+    @extend %headline-4;
+
+    background-color: transparent;
+    border-color: $color-red;
+    color: $color-red;
+  }
+
+  &[data-btn~="green"] {
+    @extend %headline-4;
+
+    background-color: transparent;
+    border-color: $color-green-dark;
+    color: $color-green-dark;
+  } */
+}
+[data-btn~="default"] {
+  background-color: transparent;
+  color: $color-font-secondary;
+  margin: 0 10px;
+  &:hover {
+    background-color: $color-base;
+    color: $color-font-white;
+  }
+}
+[data-btn~="block"] {
+  @extend %block-align-center;
+  @extend %full-width;
+
+  &[data-wii-btn~="small"] {
+      padding-left: 0;
+      padding-right: 0;
+  }
+}
+[data-btn~="large"] {
+  font-size: torem(22px);
+
+  height: torem($space-large);
+  line-height: torem($space-large - 2); // border 2px
+  padding-left: $space-large;
+  padding-right: $space-large;
+
+  @include break-point($bp-tablet) {
+      padding-left: $space-small;
+      padding-right: $space-small;
+  }
+}
+
+
+
+.formulate-input[data-classification=button] button {
+  background-color: transparent;
+  border-color: $color-base;
+  color: $color-base;
+  &:hover {
+    color: $color-font-white;
+    background-color: $color-base;
+  }
+  &:focus {
+    border: 1px solid $color-base;
+  }
+  
+  &[data-ghost] {
+    color: $color-secondary;
+    background-color: transparent;
+    border-color: currentColor;
+    &:hover {
+      color: $color-font-white;
+      background-color: $color-secondary;
+    }
+  }
+}

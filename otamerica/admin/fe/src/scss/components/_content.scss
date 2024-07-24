@@ -1,0 +1,44 @@
+.content {
+  display: grid;
+  justify-content: center;
+  min-height: 500px;
+  align-items: center;
+  input {
+    margin: 5px;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  /* button {
+    background-color: transparent;
+    color: $color-font-primary;
+    padding: 12px 20px;
+    cursor: pointer;
+    border-radius: 10px;
+    &:hover {
+      background-color: $color-base;
+      color: #ffffff;
+    }
+  } */
+  input:-internal-autofill-selected {
+    background-color: transparent !important;
+  }
+  .row {
+    display: flex;
+    /*align-items: flex-end;*/
+    justify-content: space-between;
+    margin-bottom: 20px;
+    > div {
+      @extend %full-width;
+      margin: 0 10px;
+      &:first-child{
+        margin-left: 0;
+      }
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+    .col-3 {
+      width: 33%;
+    }
+  }
+}

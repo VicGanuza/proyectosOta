@@ -1,0 +1,228 @@
+// *************************************
+//
+//   Mixins
+//
+// *************************************
+
+// -------------------------------------
+//   Variables
+// -------------------------------------
+
+
+// -------------------------------------
+//   Base
+// -------------------------------------
+
+@mixin v-align(){
+    display: table;
+    width: 100%;
+
+    @content;
+
+    > * {
+        display: table-cell;
+        vertical-align: middle;
+    }
+}
+
+@mixin disabled{
+    @extend %opa-3;
+    pointer-events: none;
+}
+
+@mixin vertical-align($position: relative) {
+    @include transform(translateY(-50%));
+
+    position: $position;
+    top: 50%;
+}
+
+
+// Example @include calc(width, "100% - 60px")
+// Example with vars: @include calc(width, "100% - " ($space-medium * 2));
+@mixin calc($property, $expression) {
+    #{$property}: -moz-calc(#{$expression});
+    #{$property}: -webkit-calc(#{$expression});
+    #{$property}: calc(#{$expression});
+}
+
+@mixin truncate($max-width: false) {
+    @if $max-width != false {
+        max-width: $max-width;
+    }
+    overflow: hidden;
+    text-overflow: ellipsis; // values are: clip, ellipsis, or a string
+    white-space: nowrap;
+}
+
+@mixin break-point($point, $width: max) {
+    @media only screen and (#{$width}-width: $point) {
+        @content;
+    }
+}
+
+@mixin aspect-ratio($width, $height) {
+    position: relative;
+
+    &:before {
+        content: "";
+        display: block;
+        padding-top: ($height / $width) * 100%;
+        width: 100%;
+    }
+
+    > img {
+        left: 0;
+        position: absolute;
+        top: 0;
+        width: 100%;
+    }
+}
+
+// Size - style - color - bg-color - border-size
+@mixin circular-image($size, $border-type: solid, $color: $color-font-secondary, $bg-color: transparent, $border-size: 1px) {
+    $size-height: $size - ($border-size * 2);
+    $size-font: $size/3;
+
+    text-align: center;
+    width: torem($size);
+
+    > figure {
+        @include border-radius(9999px);
+
+        background-color: $bg-color;
+        display: table-cell;
+        height: torem($size) + torem($border-size * 2);
+        overflow: hidden;
+        vertical-align: middle;
+        width: torem($size) + torem($border-size * 2);
+
+        &.no-image {
+            border: $border-size $color dashed;
+            background-color: $color-quinary;
+        }
+
+        &[class*="icon-"],
+        &[class*="circularImage-img-avatar"]{
+            border-color: $color;
+            border-style: $border-type;
+            border-width: $border-size;
+            font-size: $size-font;
+            //line-height: torem($size) + torem($border-size * 2);
+        }
+    }
+
+    img {
+        // max-width: 100%; partial comment
+        height: 100%; // partial line
+        width: 100%;
+    }
+}
+
+@mixin color-placeholder($color: transparent) {
+    &:-moz-placeholder {
+        color: $color;
+    }
+    &:-ms-input-placeholder {
+        color: $color;
+    }
+    &::-webkit-input-placeholder {
+        color: $color;
+    }
+    &::-moz-placeholder {
+        color: $color;
+    }
+}
+
+@mixin css-arrow(
+$box-edge         : bottom,
+$edge-side        : center,
+$arrow-size       : 10px,
+$edge-side-offset : 0,
+$fill-color       : #707070,
+$border-color     : transparent,
+$border-style     : border) {
+
+    // initiate internal variables
+    $box-edge-inverse: bottom;
+    $edge-side-pos: $edge-side;
+    $edge-side-pos-value: 0;
+
+    // establish inverse variables
+    @if      $box-edge == top    { $box-edge-inverse: bottom; }
+    @else if $box-edge == right  { $box-edge-inverse: left;   }
+    @else if $box-edge == bottom { $box-edge-inverse: top;    }
+    @else if $box-edge == left   { $box-edge-inverse: right;  }
+
+    // calculate remaining internal variables
+    @if ($box-edge == 'top' or $box-edge == 'bottom') {
+        @if $edge-side == center {
+            $edge-side-pos: left;
+            $edge-side-pos-value: 50%;
+            $edge-side-offset: (-$arrow-size);
+        }
+    }
+    @if ($box-edge == 'left' or $box-edge == 'right') {
+        @if $edge-side == center {
+            $edge-side-pos: top;
+            $edge-side-pos-value: 50%;
+            $edge-side-offset: (-$arrow-size);
+        }
+    }
+
+    &:after, &:before {
+        content: " ";
+        height: 0;
+        width: 0;
+        position: absolute;
+        border: solid rgba(#707070, 0);
+    }
+
+    &:after {
+        border-color: rgba(#fff, 0);
+        border-width: $arrow-size - 1;
+        #{$box-edge}: (-$arrow-size) - $arrow-size + 2;
+        border-#{$box-edge-inverse}-color: $fill-color;
+        #{$edge-side-pos}: $edge-side-pos-value;
+        margin-#{$edge-side-pos}: $edge-side-offset + 1;
+    }
+
+    @if $border-style == flag {
+        @include border-radius(2px);
+        &:before {
+            border-color: rgba(#fff, 0);
+            border-width: $arrow-size - 1;
+            #{$box-edge}: (-$arrow-size) - $arrow-size + 2;
+            border-#{$box-edge-inverse}-color: $border-color;
+            #{$edge-side-pos}: $edge-side-pos-value;
+            margin-#{$edge-side-pos}: $edge-side-offset + 2;
+    }
+    } @else {
+        &:before {
+            border-color: rgba(#fff, 0);
+            border-width: $arrow-size;
+            #{$box-edge}: (-$arrow-size) - $arrow-size;
+            border-#{$box-edge-inverse}-color: $border-color;
+            #{$edge-side-pos}: $edge-side-pos-value;
+            margin-#{$edge-side-pos}: $edge-side-offset;
+        }
+    }
+}
+@mixin clearFix(){
+    &:before,
+    &:after{
+      content: " "; 
+      display: table; 
+    }
+  
+    &:after{
+      display: block;
+      clear: both;
+      height: 1px;
+      margin-top: -1px;
+      visibility: hidden;
+    }
+    &{
+      *zoom: 1;
+    }
+  }

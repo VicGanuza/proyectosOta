@@ -1,0 +1,28 @@
+.flex-center {
+  display: flex;
+  align-items: center;
+}
+.display-none {
+  display: none;
+}
+.display-block {
+  display: block !important;
+}
+.height-40 {
+  height: 40px;
+}
+%full-width,
+.full-width {
+    width: 100%;
+}
+// Blocks
+%block-align-center,
+.block-align-center {
+    clear: both;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.mb-20 {
+  margin-bottom: 20px;
+}

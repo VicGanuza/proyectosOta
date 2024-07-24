@@ -1,0 +1,22 @@
+.navbar {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  img {
+    width: 230px;
+  }
+  a {
+    font-weight: bold;
+    color: #2c3e50;
+    margin: 0 10px;
+
+    &.router-link-exact-active {
+      color: $color-base;
+    }
+    &:hover {
+      cursor: pointer;
+      color: $color_secondary
+    }
+  }
+}

@@ -1,0 +1,17 @@
+.login {
+  text-align: center;
+
+  div {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+  }
+
+  .error {
+    color: $color-base;
+  }
+}

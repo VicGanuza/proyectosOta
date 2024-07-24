@@ -1,0 +1,33 @@
+.error {
+  color: $color_warn;
+  font-weight: bold;
+  .content-select,
+  .content-intput {
+    select,
+    input {
+      border-color: $color_base;
+    }
+    i {
+      border-left: 4px solid $color_warn;
+      border-bottom: 4px solid $color_warn;
+      transform: rotate(-45deg);
+      transition: all 0.25s ease;
+    }
+    p {
+      font-size: 0.87rem;
+      margin: 0;
+      position: absolute;
+    }
+  }
+}
+.success {
+  color: $color_success;
+  font-weight: bold;
+}
+.formulate-input{
+  .formulate-input-error,
+  .formulate-file-upload-error {
+    color: $color-base;
+    font-weight: bold;
+  }
+}

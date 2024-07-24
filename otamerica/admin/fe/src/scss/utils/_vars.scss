@@ -1,0 +1,38 @@
+$color-font-primary: #505050;
+$color-font-secondary: #a0a0a0;
+$color-font-white: #FFFFFF;
+
+//$color_base: #d51020;
+$color_base: #2962ff;
+$color-secondary: #46b7a9;
+
+$base-font-size: 16px;
+
+$color_warn: #2962ff;
+$color_grey: #828282;
+$color_success: #46b7a9;
+
+// -------------------------------------
+//   Height
+// -------------------------------------
+
+$height-small: 20px;
+$height-medium: 40px;
+$height-large: 60px;
+
+$space-small: 20px;
+$space-medium: 40px;
+$space-large: 60px;
+
+$btn-icon: $height-medium;
+$btn-icon-small: $height-large/2;
+
+// -------------------------------------
+//   Breakpoints
+// -------------------------------------
+
+$bp-mobile: 480px;
+$bp-tablet: 768px;
+$bp-desktop: 960px;
+$bp-large: 1024px;
+$bp-xlarge: 1240px;

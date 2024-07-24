@@ -1,0 +1,19 @@
+.dropdown {
+  display: none;
+  position: absolute;
+  right: 0;
+  top: 65px;
+  padding: 0 15px;
+
+  li {
+    list-style: none;
+    line-height: 40px;
+    span {
+      margin-right: 10px;
+    }
+    &:hover {
+      background-color: rgba($color-font-secondary, 0.2);
+      cursor: pointer;
+    }
+  }
+}

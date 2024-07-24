@@ -1,0 +1,22 @@
+.menu {
+  @extend %full-width;
+ 
+  height: 60px;
+  display: flex;
+  align-items: center;
+
+  a{
+    line-height: 60px;
+    padding: 0 15px;
+    margin: 0;
+    border-right: 1px solid #c0c0c0;
+    &:hover,
+    &:active {
+      background-color: $color_grey;
+      color: #ffffff;
+    }
+    &:last-child {
+      border-right: none;
+    }
+  }
+}
