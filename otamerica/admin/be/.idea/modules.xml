@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../../WixApi/.idea/WixApi.iml" filepath="$PROJECT_DIR$/../../WixApi/.idea/WixApi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../main/repo.main/api/.idea/api.iml" filepath="$PROJECT_DIR$/../../main/repo.main/api/.idea/api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../depatas/webservices/.idea/depatas-server.iml" filepath="$PROJECT_DIR$/../../depatas/webservices/.idea/depatas-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../oil/main-be/.idea/main-be.iml" filepath="$PROJECT_DIR$/../../oil/main-be/.idea/main-be.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../oil/.idea/oil.iml" filepath="$PROJECT_DIR$/../../oil/.idea/oil.iml" />
+      <module fileurl="file://D:/wamp64/www/oiltanking/.idea/oiltanking.iml" filepath="D:/wamp64/www/oiltanking/.idea/oiltanking.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../otamerica-ws/.idea/otamerica-ws.iml" filepath="$PROJECT_DIR$/../../otamerica-ws/.idea/otamerica-ws.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/php-jwt-rest-authentication.iml" filepath="$PROJECT_DIR$/.idea/php-jwt-rest-authentication.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../repo.test/.idea/repo.test.iml" filepath="$PROJECT_DIR$/../../repo.test/.idea/repo.test.iml" />
+    </modules>
+  </component>
+</project>
