@@ -1,0 +1,22 @@
+.m-facts {
+  background-color: $color-base;
+  background: linear-gradient(
+    90deg,
+    rgba(0, 90, 166, 1) 4%,
+    rgba(70, 183, 169, 1) 96%
+  );
+  color: #ffffff;
+  text-align: center;
+  font-size: 20px;
+  p {
+    color: #ffffff;
+  }
+  .number-counter {
+    font-size: 2em;
+  }
+  small {
+    font-size: 12px;
+    margin-bottom: 10px;
+    text-align: right;
+  }
+}

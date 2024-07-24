@@ -1,0 +1,14 @@
+.v-application {
+  font-family: $base-font-family;
+  > *,
+  .text-md-h2,
+  .title,
+  .body-2 {
+    font-family: $base-font-family !important;
+  }
+}
+.row {
+  .v-input {
+    width: auto !important;
+  }
+}
