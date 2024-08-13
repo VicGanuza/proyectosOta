@@ -1,0 +1,58 @@
+[data-btn] {
+  border: {
+    color: transparent;
+    style: solid;
+    width: 1px;
+    radius: 10px;
+  }
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 400;
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+  -webkit-appearance: none;
+
+  &:hover {
+    text-decoration: none;
+  }
+
+  &[disabled="disabled"] {
+    opacity: 0.3;
+  }
+}
+[data-btn~="default"] {
+  background-color: transparent;
+  color: $color-font-secondary;
+  margin: 0 10px;
+  &:hover {
+    background-color: $color-base;
+    color: $color-font-white;
+  }
+}
+[data-btn~="medium"] {
+  font-size: torem(20px);
+
+  height: torem($space-medium);
+  line-height: torem($space-medium - 2); // border 2px
+  padding-left: $space-medium;
+  padding-right: $space-medium;
+
+  @include break-point($bp-tablet) {
+      padding-left: $space-small;
+      padding-right: $space-small;
+  }
+}
+[data-btn~="large"] {
+  font-size: torem(22px);
+
+  height: torem($space-large);
+  line-height: torem($space-large - 2); // border 2px
+  padding-left: $space-large;
+  padding-right: $space-large;
+
+  @include break-point($bp-tablet) {
+      padding-left: $space-small;
+      padding-right: $space-small;
+  }
+}

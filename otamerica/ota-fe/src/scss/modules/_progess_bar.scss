@@ -1,0 +1,15 @@
+.v-progress-linear {
+  .v-progress-linear__background {
+    &.primary {
+      background-color: $color-base !important;
+      border-color: $color-base !important;
+    }
+  }
+
+  .v-progress-linear__indeterminate {
+    &.primary {
+      background-color: $color-base !important;
+      border-color: $color-base !important;
+    }
+  }
+}

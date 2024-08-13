@@ -1,0 +1,20 @@
+.v-toolbar {
+    display: block;
+}
+.v-toolbar__content, .v-toolbar__extension {
+    padding: 4px 16px;
+}
+.v-img__img--contain {
+    -o-object-fit: contain;
+    object-fit: cover;
+}
+.blue--text {
+    color: #005aa6 !important;
+    caret-color: #005aa6 !important;
+}
+p {
+    margin-bottom: 16px;
+}
+.v-container {
+    max-width: 1320px;
+}

@@ -1,0 +1,27 @@
+//@import "./app.scss";
+@import "./utils/var";
+@import "./utils/mixins";
+@import "./utils/functions";
+
+@import "./base/typography";
+@import "./base/core";
+
+@import "./modules/adicionales";
+@import "./modules/header";
+@import "./modules/menu";
+@import "./modules/container";
+@import "./modules/carousel";
+@import "./modules/lists";
+@import "./modules/defaul";
+@import "./modules/table";
+@import "./modules/progess_bar";
+@import "./modules/facts";
+@import "./modules/contact";
+@import "./modules/form";
+@import "./modules/button";
+@import "./modules/video";
+@import "./modules/navigation";
+
+@import "./views/contentProvider";
+
+@import "./layout/application";

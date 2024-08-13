@@ -1,0 +1,677 @@
+{
+  "downloadFactSheetPdf": "Download Fact Sheet as PDF",
+  "areaPlan": "Area Plan",
+  "sitePlan": "Site Plan",
+  "certification": "Certification",
+  "publicAccess": "Public Access",
+  "railwayMap": "Railway Map",
+  "keepReading": "Keep Reading...",
+  "more": "more",
+  "readMore": "Read more...",
+  "terminalFacts": "Terminal Facts",
+  "gpsCoordinates": "GPS Coordinates",
+  "routePlanner": "Route Planner",
+  "localTime": "Local Time",
+  "terminalContact": "Terminal Contact",
+  "marketingContact": "Marketing Contact",
+  "protectionData": "Data Protection",
+  "contactInformation": "Comunication Contact",
+  "languages": "Languages",
+  "year": "Year",
+  "monthLabel": "Month",
+  "updated": "Last Update",
+  "noCookies": "This website does not use cookies",
+  "integratedManagementSystemPolicy": "Integrated Management System Policy",
+  "officeDoesNotExist": "The office does not exist",
+  "terminalDoesNotExist": "The terminal does not exist",
+  "goBack": "Go Back",
+  "lang": {
+    "english": "English",
+    "spanish": "Spanish",
+    "portuguese": "Portuguese"
+  },
+  "month": {
+    "all": "All",
+    "select": "Select",
+    "january": "January",
+    "february": "February",
+    "march": "March",
+    "april": "April",
+    "may": "May",
+    "june": "June",
+    "july": "July",
+    "august": "August",
+    "september": "September",
+    "october": "October",
+    "november": "November",
+    "december": "December"
+  },
+  "menu": {
+    "aboutUs": {
+      "title": "About us",
+      "submenu": {
+        "otamericaAsTank": "OTAMERICA as a Tank Storage Logistics Partner",
+        "strategicApproach": "Strategic Approach",
+        "corporateMovies": "Corporate Movies",
+        "history": "History",
+        "parentCompany": "Parent Company"
+      }
+    },
+    "businessAreas": {
+      "title": "Business Areas & Tank Terminals",
+      "submenu": {
+        "oilStorage": "Oil storage",
+        "chemicalStorage": "Chemical storage",
+        "gasStorage": "Gas storage",
+        "otherLiquidsStorage": "Storage of other liquids"
+      }
+    },
+    "responsibility": {
+      "title": "Responsibility",
+      "submenu": {
+        "hsse": "HSSE-Health, Safety, Security & Environment",
+        "corporateGovernance": "Corporate Governance & Compliance",
+        "sustainableGrowth": "Sustainable Growth",
+        "environmentalProtection": "Environmental Protection",
+        "ourEmployees": "Our Employees",
+        "corporateCitizenship": "Corporate Citizenship",
+        "hssePolicy": "HSSE Policy",
+        "healthAndSafety": "Health & Safety",
+        "security": "Security",
+        "environment": "Environment",
+        "sustainabilityStrategy": "Sustainability Strategy",
+        "strategicActionAreas": "Strategic Action Areas",
+        "ethicsAndCompliance": "Ethics & Compliance",
+        "esgReport": "2023 ESG Report"
+      }
+    },
+    "newsInfo": {
+      "title": "News & Info",
+      "submenu": {
+        "currentNews": "Current News",
+        "pressReleases": "Press Releases",
+        "pressPhotos": "Press Photos",
+        "publicationsDownloads": "Publications & Downloads",
+        "events": "Events",
+        "glossary": "Glossary",
+        "tools": "Tools",
+        "links": "Links"
+      }
+    },
+    "career": {
+      "title": "Career",
+      "submenu": {
+        "vacancies": "Vacancies",
+        "jdpProgram": "JDP Program",
+        "graduateProgram": "Graduate Program",
+        "dualStudies": "Dual Studies",
+        "training": "Training",
+        "humanResourcesWork": "Human Resources Work"
+      }
+    },
+    "contact": {
+      "title": "Contact",
+      "submenu": {
+        "latinAmericaContacts": "Contacts Latin America",
+        "contentProvider": "Content Provider"
+      }
+    },
+    "news": {
+      "title": "News",
+      "submenu": {
+        "terminals": "Terminals"
+      }
+    }
+  },
+  "messages": {
+    "noSearchResult": "There is not results for your search"
+  },
+  "contentProvider": {
+    "title": "Content Provider",
+    "websiteOwnerTitle": "Website Owner",
+    "websiteOwnerCompany": "Oiltanking GmbH",
+    "websiteOwnerAddress": "Stadthausbrücke 5",
+    "websiteOwnerCity": "20355 Hamburg",
+    "websiteOwnerCountry": "Germany",
+    "websiteOwnerManagement": "Management",
+    "websiteOwnerPersonal": "Donath Holger (CEO)",
+    "websiteContents": {
+      "title": "Website Contents",
+      "company": "Oiltanking GmbH",
+      "address": "Stadthausbrücke 5",
+      "city": "20355 Hamburg",
+      "country": "Germany",
+      "management": "Management",
+      "personal": "Donath Holger (CEO)"
+    },
+    "websiteDesign": {
+      "title": "Website Design",
+      "company": "raz design",
+      "address": "Ralf Reszeleit <br> Große Bleichen 21 a/b (Galleria)",
+      "city": "20354 Hamburg",
+      "country": "Germany"
+    },
+    "websiteProgramming": {
+      "title": "Website Programming",
+      "company": "Victoria Ganuza",
+      "description": "Web Developer",
+      "city": "8000 Bahía Blanca",
+      "country": "Argentina",
+      "link": "https://www.linkedin.com/in/victoriaganuza/"
+    }
+  },
+  "facts": {
+    "terminals": "terminal operations in {locations} countries",
+    "cdmStorage": "million cbm storage capacity",
+    "dwtStorage": "million tons annual throughput handled",
+    "employees": "employees",
+    "ref": "December 2023"
+  },
+  "otamericaAsTank": {
+    "title": "OTAMERICA as Tank Storage Logistics Provider",
+    "subtitle":
+      "Our vision is to be the preferred partner in energy logistics.",
+    "p1": "OTAMERICA has been active in tank storage logistics for oils, gases and chemicals worldwide. The company owns and operates 13 terminal operations with a total storage capacity of more than  1.4 million cbm in 6 countries: Argentina, Brazil, Colombia, Mexico, Panama and Peru.",
+    "p2": "At the tank terminals, OTAMERICA stores and handles many different products including crude oil, petroleum products, biofuels, gases and chemicals.",
+    "p3": "OTAMERICA is not the owner of the goods stored, but merely provides its services in the field of tank storage logistics. Our clients include private and state oil companies, refiners, petrochemical companies, and traders in petroleum products and chemicals.",
+    "p4": "Often we develop and operate our business with reputable local, private and state-owned companies, whereby OTAMERICA acts as operating partner in the joint venture. In developing capital-intensive terminal facilities alone – or with substantial local business partners – the financial strength of parent company Marquard & Bahls AG is a valuable resource.",
+    "p5": "To further improve our shareholders value we continue to employ a strategy of controlled growth of our tank terminal-based service network through acquisitions, new buildings and upgrading of existing facilities.",
+    "p6": "OTAMERICA has a strong customer orientation and provides tailor-made infrastructure. Its focus is on safe, efficient and reliable services in constructing and operating its facilities."
+  },
+  "responsibility": {
+    "title": "Corporate Responsibility & Sustainability",
+    "description":
+      "We believe that only a management system based on the principles of sustainability will enable and secure the future of our business. Areas of focus include safety leadership & strong HSSE culture, environmental protection, operational excellence, our employees and surrounding communities.",
+    "p": "The goal of sustainable development is to act in an economically sound way while conserving resources, maintaining the social equilibrium, and protecting our environment. As a family-owned business, this principle is of special importance to us and guides our decisions."
+  },
+  "sustainableGrowth": {
+    "title": "Sustainable Growth",
+    "description":
+      "To achieve long-term success and controlled growth, we rely on a healthy mix of risk between the operating units, without neglecting ecological and social aspects.",
+    "p": "The operating units act independently while being strategically connected.",
+    "riskManagement": "Risk Management",
+    "rmp": "One of the greatest challenges as we pursue our strategy of controlled, long-term growth is to limit the manifold financial, operational and HSSE risks. That is why we work based on a permanent and thorough risk management scheme that individually rates all risks and defines tailor-made mandates, tasks, and responsibilities. To further ensure a healthy mix of risk, all risks – including social and environmental ones – are evaluated in the context of the entire group of companies. We take a decentralized approach whereby risks are broken out to the individual companies and responsibility is assigned at operating unit level. The principal risks that may affect future business performance include:",
+    "l1": "Currency fluctuation",
+    "l2": "Another international financial crisis flare-up and/or sustained economic downturn",
+    "l3": "Political conflict in oil-producing countries and the resultant tensions on the oil markets",
+    "l4": "Rising prices for natural resources and purchased energy",
+    "l5": "Environmental and natural disasters as well as effects of the climate change",
+    "l6": "Higher risks in countries we are active in",
+    "l7": "Global pandemic, such as the global outbreak of COVID-19",
+    "supplierCustomerRelations": "Supplier & Customer Relations",
+    "scrp1":
+      "The diversity of our company is reflected in the broad spectrum of our suppliers, ranging from vendors of technical equipment for our operational sites to office equipment suppliers. We treat our suppliers with respect, maintain an honest relationship with everyone involved in the business processes, and strive to establish a long-term cooperative partnership. For us, this means not only acting responsibly on our own premises, but along the entire supply chain.",
+    "scrp2":
+      "Internal supplier lists increase transparency in the quality and performance of our business partners, with the ultimate goal of giving our customers excellent services and products. At our sites we also place great importance on safe working procedures for employees from sub-contractors. At OTAMERICA, an integrated contractor management program has been in place since 2014.",
+    "esgReport": {
+      "title": "2023 ESG Report",
+      "d1": "OTAMERICA has always been committed to sustainability. Therefore, we have a well-established HSSE management system and a proven track record of ensuring safe and healthy workplaces for our employees and contractors.",
+      "d2": "For over 10 years, Oiltanking documented its commitment through ESG (Environmental, Social, and Governance) reports. In December 2023, at OTAMERICA, we published our first independent sustainability report, demonstrating our dedication to leading in the energy transition, caring for people and the environment, and applying fair business practices.",
+      "d3": "Today, we are launching our second independent 2023 report, where we reflect on our progress towards fulfilling our sustainability strategy and growth ambitions, report key KPIs, and share stories from across the OTAMERICA portfolio.",
+      "link": "2023 ESG Report"
+    }
+  },
+  "environmentalProtection": {
+    "title": "Environmental Protection",
+    "subtitle":
+      "Our activities impact the environment both directly and indirectly. We therefore want to make every effort to position ourselves as an environmentally friendly company within our business activities – a company that keeps its negative impact on the environment to an absolute minimum.",
+    "p1": "We are well aware that our business activities pose potential risks to the environment and that we rely on resources such as energy, water and building materials. We must therefore make every effort, now and in the future, to keep any negative impact on the environment as low as possible. To achieve this, we have set high environmental standards for ourselves.",
+    "p2": "Environmental issues are an integral part of our HSSE management system. Our policy on HSSE stipulates that we use energy and raw materials efficiently, avoid environmental pollution, and promote environmental awareness among our employees so as to minimize harmful influences. For many years now, we have been recording the frequency of product releases and their volume, the amount of energy and water used and the waste produced at our sites and have established corresponding KPIs that enable us to better identify and evaluate our development. Additionally, in order to evaluate our impact on climate change, our holding company Marquard & Bahls calculates the carbon dioxide (CO2) footprint for the entire group.",
+    "p3": "As a preventive measure in lines with our HSSE management we furthermore monitor the groundwater quality on our tank terminals on a regular basis. The obtained data is evaluated centrally by our environmental experts.",
+    "energyConsumptionSavings": "Energy Consumption & Savings",
+    "p4": "Our company uses direct and indirect energy sources in its offices, and to operate facilities, sites, and vehicles. Direct energy consumption includes natural gas, heating oil and fuel for the operation of our pumps, boilers and operational vehicles. Indirect energy – mainly electricity – is used among other things for product pumps, lighting at our tank terminals, and last, but not least, the computers in our offices worldwide. Other indirect sources of energy that we use include district heating and, to a lesser extent, imported steam.",
+    "p5": "The most energy-consuming activity is the pumping that takes place at the tank terminals. To detect potential savings and take measures to improve energy efficiency, local activities are aligned with our detailed Energy Saving Guideline. At various sites, further potential for savings for the specific work environment can be identified and general recommendations can be derived."
+  },
+  "strategicApproach": {
+    "title": "Strategic Approach",
+    "subtitle":
+      "We believe in developing partnerships and aspire to be the preferred partner for professional storage and logistic services.",
+    "p1": "We pursue sustainable growth through expansion of existing facilities, construction of new terminals, and acquisitions in markets with continued growth in petroleum products, petrochemicals and refrigerated gas.",
+    "weCanWeCare": "Connecting Energies",
+    "p2": "We receive, care for, facilitate and build bridges to make it possible for energy to reach those who need it efficiently and safely",
+    "p3": "Our energy as a corporate citizen joins the energy of our clients, focusing on environmental protection and sustainable growth.",
+    "weFocusOn": "We Focus On",
+    "operationalExcellence": "Operational Excellence",
+    "p4": "We pursue continuous improvement of assets and workflows through collaboration and exchange of ideas with internal and external stakeholders add value to all parties.",
+    "safetyLeadership": "Safety Leadership",
+    "p5": "We are committed to performing all business activities in a safe and efficient manner. Our goal is to prevent all accidents, injuries and occupational illness.",
+    "environmentalProtection": "Environmental Protection",
+    "p6": "We want to make every effort to protect the environment as we conduct our business activities. We are committed to minimizing our environmental footprint.",
+    "humanResources": "Human Resources",
+    "p7": "Our industry involves a broad range of qualifications, skills and expertise. We employ the best talents. Because our work environment, the markets, and the technology are constantly changing, we have to keep learning completely new things as well, and therefore support our employees through adequate training programs."
+  },
+  "corporateMovies": {
+    "title": "Corporate Movies",
+    "p": "Our vision is to be the preferred partner in energy logistics. Thereby, safeguarding health, safety, security and environmental protection is a top priority for us.",
+    "video1": "Video Victória",
+    "video2": "Video Port Açu",
+    "video3": "Oiltanking Spring Meeting 2017 − Social Day"
+  },
+  "jdpProgram": {
+    "title": "JDP - Graduate Trainee Program",
+    "subtitle1":
+      "Are you ambitious, dynamic & engaged and ready to add some drive to your career? Join our graduate trainee program “JDP – Junior Development Program” and prepare yourself for an exciting future in the energy and logistics sector.",
+    "subtitle2":
+      "Depending on your field of interest, the JDP graduate trainee program provides a diverse range of functions at OTAMERICA in one of our subsidiaries.",
+    "subtitle3": "So, get ready for a life changing experience and join us.",
+    "modularStructure": "Modular Structure",
+    "p": "Our 18-month graduate trainee program is structured into two modules, focused on you and your personal & professional development.",
+    "p1": "<strong>Module 1 “The Basics & Development (basics)“</strong>: In the first nine months, you network with business experts to understand the core activities of the oil business. You will work at one of our OTAMERICA Terminals and gain insight into the role of important Functions like IT, Finance and Purchasing at OTAMERICA.",
+    "p2": "<strong>Module 2 “Development (expert) & Graduation”</strong>: A 9-month module deep-dive into your specialization area working alongside with world-class experts in the industry. They will challenge your way of thinking and you will grow through challenging work in an ever-changing environment which includes local and regional assignments. You will have a regional assignment giving you an opportunity to broaden your OTAMERICA horizon while moving to a different country. Here, you will experience a new culture and will gain an even deeper understanding of the complexity underlying a regional company’s work. End of Regional assignment, according to your performance, will be followed by a position in your local country.",
+    "p3": "The graduate trainee program will be supplemented throughout with seminars and training sessions on specific business topics to further advance your personal development. During this 18-month journey you will have the personal support of our employee as we jointly lay the foundations for your future in energy & logistics.",
+    "p4": "For more information visit this link: <a href='https://www.ciadetalentos.com.br/es/' target=_blank >https://www.ciadetalentos.com.br/es/</a>",
+    "applyHere": "Apply Here"
+  },
+  "ourEmployees": {
+    "title": "Our Employees",
+    "subtitle":
+      "Our employees are the foundation of our success and of our corporate culture. We therefore want to position ourselves as a fair employer with strong ethical principles and support company growth by recruiting qualified employees and providing them with a diverse and healthy working environment.",
+    "p1": "We encourage our employees to take responsibility, promote equal opportunities and diversity, and invest in our employees’ professional development. Short decision paths and entrepreneurial thought and action set us apart. Although we act as independent business areas, we are linked in a strategic network. We strive to cultivate a shared “company group feeling” while still preserving the operating units’ respective cultures. These priorities are anchored in our strategic approach and are fleshed out with specific measures and programs in our HR work. On the one hand, our HR work includes the careful selection of suitable candidates and the continuous development and training of our employees and managers. On the other hand, the wellbeing of our employees and contractors is a top priority.",
+    "laborStandards": "Labor Standards",
+    "p2": "Compliance with the standards of the International Labor Organization (ILO) is laid down in our binding Code of Conduct. Furthermore, we determine here that salaries shall be regulated based solely on qualifications, performance, and other work-related factors such as responsibility, skill, and experience. Factors such as gender, age, race, religion, marital status, or disability have no influence on salaries. In addition to the competitive base salary, we voluntarily offer comprehensive supplementary benefits, and in most countries in which we operate, we offer a voluntary, additional employer-financed company pension.",
+    "p3": "Moreover, we abide by the Universal Declaration of Human Rights and the United Nations (UN) protocols, protecting human rights within our sphere of influence.",
+    "equalOpportunity": "Equal Opportunity",
+    "p4": "We regard diversity as an invaluable commodity and a central resource for innovation and competitiveness and we seek to foster it in our workforce. Similarly, the application and promotion of equal opportunities and equal treatment without discrimination are part of our corporate culture and are set out in our Code of Conduct.",
+    "p5": "In the event of discrimination, harassment or other violations of the Code of Conduct, all employees can report anonymously at any time using complianceotamerica.lineaseticas.com"
+  },
+  "hsse": {
+    "title": "Health, Safety, Security & Environment (HSSE)",
+    "subtitle":
+      "Safeguarding health, safety, security and environmental protection is a priority for us.",
+    "p1": "In our HSSE Policy, we commit to preventing all accidents, injuries and occupational illness, and to protect the environment. We therefore continually optimize all of our subsidiaries’ activities with a view to technical, organizational and behavior-based safety and promote a proactive safety culture.",
+    "p2": "The corporate Health, Safety, Security & Environment (HSSE) Department in Hamburg develops guidelines and minimum requirements for all subsidiaries. Targets are set and the performance is benchmarked to achieve continuous improvement. ",
+    "p3": "One significant measure is the creation of comprehensive HSSE manuals that are specifically tailored to the respective operating units – and based on which the sites develop appropriate local management systems.",
+    "p4": "A central tool for learning from incidents is a global incident database. To prevent incidents and their reoccurrence, all accidents, incidents, near misses and unsafe acts and conditions are logged and systematically analyzed. If necessary, HSSE alerts are created, distributed to the relevant sites and discussed with our employees.",
+    "p5": "To monitor compliance with our internal standards, internal HSSE audits are performed and detailed HSSE statistics with “leading“ (forward-looking) and “lagging“ (retrospective) KPIs are analyzed.",
+    "p6": "A further central point of our effort to conduct our business activities in a safe, healthy and environment-friendly manner is the training and education of our employees. New employees as well as contractors and visitors are instructed in matters of HSSE before taking up their work or their visit."
+  },
+  "corporateGovernanceCompliance": {
+    "title": "Responsible Corporate Governance",
+    "p1": "For us, responsible corporate governance means ensuring our company’s future viability and strong reputation by pursuing a “beyond-compliance” approach and integrating the expectations of our stakeholders into our day-to-day activities and investment decisions.",
+    "p2": "Because we are aware of the potential impact of the companies we are invested in on people and the environment, we seek to integrate the principle of sustainable development in all our activities. Our sustainability management focuses on Health, Safety, Security & Environment (HSSE)."
+  },
+  "sustainabilityStrategy": {
+    "title": "Sustainability Strategy",
+    "subtitle":
+      "To keep improving our sustainability performance and to target our activities in our key areas, Marquard & Bahls pursues a comprehensive sustainability strategy.",
+    "p1": "This strategy is based on our sustainability commitment and six strategic action areas and supports both the various dimensions of human development as well as the UN Sustainable Development Goals (SDGs), to which we once again commit ourselves.",
+    "p2": "The following six overarching strategic action areas determine our success:",
+    "p3": "To anchor the afore mentioned six key strategic issues in our global activities we use various instruments and measures. To firmly establish responsibility for environmental and social issues at the highest level, the relevant principles are reflected in our HSSE Policy. We develop our internal policies and standards based on internationally recognized principles of responsible entrepreneurship. The basis for this is our Code of Conduct, which is binding for all employees. Other tools include internal audits, the implementation of certified management systems, and a statistical monitoring of key performance indicators (Key Performance Indicators – KPIs). Because sustainability for us is about ensuring our future viability, it will be integrated even more closely into our investment decisions as well as our daily workflows and processes in the future."
+  },
+  "strategicActionAreas": {
+    "title": "Strategic Action Areas",
+    "p": "With our strategy process we derived an overall sustainability commitment and six overarching action areas, that are crucial to our success as a company in the field of energy & chemicals:",
+    "ourSustainabilityCommitment": "Our Sustainability Commitment",
+    "p2": "By ensuring outstanding sustainability performance, we aim to create added value for our employees, our shareholders, as well as society, while also protecting the environment. We put our values into action, integrate the principles of sustainable development across our entire value chain, and encourage our employees to participate in them.",
+    "responsibleCorporateGovernance": "Responsible Corporate Governance",
+    "p3": "We preserve our corporate culture and take responsibility for our actions. We maintain transparency vis-à-vis all stakeholders and are committed to fair competition. We take measures to preclude corruption and bribery from the outset.",
+    "sustainableGrowt": "Sustainable Growth",
+    "p4": "We believe in controlled growth and long-term partnerships. We safeguard our future success with a healthy mix of risks across the business areas, without neglecting ecological and social aspects. We strive to steadily improve our services and offer the highest-quality products and services.",
+    "environmentalProtection": "Environmental Protection",
+    "p5": "We always strive to prevent product releases, minimize our environmental footprint and use resources efficiently. At the same time, we aim to reduce our relative energy consumption as well as water consumption.",
+    "ourEmployees": "Our Employees",
+    "p6": "We promote equal opportunities and diversity, and invest in the professional development of our employees. We seek to attract qualified, talented employees and retain them long-term.",
+    "occupationalHealthSafety": "Occupational Health & Safety",
+    "p7": "Occupational health & safety have the highest priority in all our activities. We identify and analyze potential risks and take measures to avoid, prevent, control and limit them.",
+    "corporateCitizenship": "Corporate Citizenship",
+    "p8": "We also take responsibility beyond our business activities and support surrounding communities in our five focus areas: environment, education, health, culture & sports, and humanitarian aid. We encourage and support our employees in their volunteer work."
+  },
+  "ethicsAndCompliance": {
+    "title": "Ethics & Compliance",
+    "subtitle":
+      "We are committed to high ethical standards and to conducting our business and operations in an ethical and a compliant manner.  Therefore, we have set up an ethics and compliance framework with instruments and procedures that guide our employees and external stakeholders in dealing with compliance risks.",
+    "complianceManagementSystem": "Integrity Program",
+    "p1": "Our compliance management system is aligned with applicable laws, regulations, and OTAMERICA’s internal standards. With this system, we want to create and preserve a sound ethics and compliance culture within OTAMERICA. The tasks of the Ethics & Compliance Department include identifying compliance risks, developing appropriate compliance programs, and implementing them through practical measures such as training. The focus is on the prevention of corruption, bribery, and money laundering, as well as on competition law, supply chain compliance, and sanction-related topics.",
+    "ethicsComplianceCharterAndPolicies":
+      "Ethics & Compliance Charter and Policies",
+    "p2": "The Ethics & Compliance Charter defines the fundamental principles, roles, and responsibilities of the Ethics & Compliance Department as well as its relationship with the Supervisory Board, CEO, Senior Management, and the business and operational functions. In addition, to set high internal standards, the Ethics & Compliance department has established a framework of Policies and Procedure on compliance issues.",
+    "reportingMisconduct": "Reporting Misconduct",
+    "p3": "At OTAMERICA, we foster a work environment in which our employees and external stakeholders are empowered and able to speak up safely about any unethical or unlawful behaviors.",
+    "p4": "As a general rule, concerns should be reported and handled locally. However, when this channel (for any reason) is not appropriate, OTAMERICA has an externally operated Ethics & Compliance <i>“Line”</i>, available to all OTAMERICA’s internal and external stakeholders. Reports can be made in multiple languages, 24/7, online or via telephone hotline. Though we recommend that you disclose your identity when making a report to facilitate an efficient investigation and a quick resolution, you can always choose to report anonymously. For all reports made in good faith, OTAMERICA will undertake all necessary measures to protect a whistleblower against any sort of retaliation.",
+    "p5": "To report any unlawful or unethical acts, please visit <a href=“https://complianceotamerica.lineaseticas.com/“ target=“_blank“>complianceotamerica.lineaseticas.com</a>",
+    "currentPolicies": "Main current policies"
+  },
+  "ourTerminals": "Our Terminals",
+  "quickFinder": {
+    "title": "Terminal & Location Quickfinder",
+    "button": "Search"
+  },
+  "home": {
+    "title": "Sustainable Tank Storage Solutions",
+    "subtitle": "around Latin America"
+  },
+  "about": {
+    "title": "About Us",
+    "subtitle":
+      "On these pages, you will find information about the company, our vision & mission, history and more.",
+    "company": "The Company",
+    "corporateMovies": "Corporate Movies",
+    "strategicApproac": "Strategic Approach",
+    "profile": "Profile...",
+    "otaVideos": "OTAMERICA videos...",
+    "visionAndMission": "Vision & Mission..."
+  },
+  "businessAreasAndTankTerminals": {
+    "title": "Tank Storage Logistics & Tank Terminals",
+    "text": "OTAMERICA is one of the Latin American’s leading independent storage partners for oils, chemicals and gases. We have a strong customer orientation and provide tailor-made infrastructure. Our focus in tank storage is on safe, efficient and reliable services in constructing and operating our facilities."
+  },
+  "quickfinderResults": {
+    "title": "Quickfinder Results",
+    "text": "Search by region, company, business area, product, access type, service, or by individual keywords. Click on the icon to view a given site on the world map or the terminal’s website.",
+    "companyName": "All Companies",
+    "tableHeader": {
+      "region": "Region",
+      "companyTerminal": "Company / Terminal",
+      "products": "Products"
+    }
+  },
+  "carousel": {
+    "home": {
+      "img1": {
+        "title": "Connecting Energies",
+        "description":
+          "We receive, care for, facilitate and build bridges to make it possible for energy to reach those who need it efficiently and safely... "
+      },
+      "img2": {
+        "title": "We Store",
+        "description":
+          "We are one of the world’s leading independent storage partners for oils, gases and chemicals... "
+      },
+      "img3": {
+        "title": "We Are Committed",
+        "description":
+          "Safeguarding health, safety, security and environmental protection is a priority for us... "
+      }
+    }
+  },
+  "locations": {
+    "all": "All Regions",
+    "argentina": "Argentina",
+    "brazil": "Brazil",
+    "colombia": "Colombia",
+    "mexico": "Mexico",
+    "panama": "Panama",
+    "peru": "Peru"
+  },
+  "businessAreas": {
+    "all": "All Business Areas",
+    "tankStorage": "Tank Storage Logistics (All Areas)",
+    "petroleumStorage": "Oil Storage",
+    "chemicalStorage": "Chemical Storage",
+    "storageOfOthersLiquids": "Storage of Others Liquids",
+    "gasStorage": "Gas Storage"
+  },
+  "products": {
+    "all": "All Products",
+    "petroleumProducts": "Petroleum Products",
+    "crudeOil": "Crude Oil",
+    "fuelOil": "Fuel Oil",
+    "chemicals": "Chemicals",
+    "jetFuel": "Jet Fuel",
+    "petrochemicals": "Petrochemicals",
+    "lpg": "LPG",
+    "biofuels": "Biofuels"
+  },
+  "accessTypes": {
+    "all": "All Access Types",
+    "tankers": "Tankers",
+    "vessels": "Vessels",
+    "barges": "Barges",
+    "bunkeBoats": "Bunker Boats",
+    "railCars": "Rail Cars",
+    "tankTrucks": "Tank Trucks",
+    "pipeline": "Pipeline",
+    "jetty": "Jetty",
+    "bert": "Berth",
+    "isoContainer": "ISO Container",
+    "tankToTank": "Tank-to-Tank"
+  },
+  "services": {
+    "all": "All Services",
+    "allServices": "All Services",
+    "connectionToLongDistancePipelines":
+      "Connection to long-distance pipelines",
+    "pipelineConnectionsToRefineries": "Pipeline connections to refineries",
+    "pipelineConnectionsToChemicalIndustry":
+      "Pipeline connections to chemical industry",
+    "dedicatedPipelinesForChemicals": "Dedicated pipelines for chemicals",
+    "tankToTankTransfer": "Tank-to-tank transfer",
+    "shipToShipTransfer": "Ship-to-ship transfer",
+    "shipToShipTransferViaShoreline": "Ship-to-ship transfer via shoreline",
+    "bargeLoadingAndUnloading": "Barge loading and unloading",
+    "vesselLoadingAndUnloading": "Vessel loading and unloading",
+    "vesselUnloading": "Vessel unloading",
+    "commingledAndDedicatedTanks": "Commingled and dedicated tanks",
+    "vesselLoading": "Vessel loading",
+    "vaporRecovery": "Vapor recovery",
+    "vesselTypeAframax": "Vessel type: Aframax (80,000 - 120,000 dwt)",
+    "vesselTypeSuezmax": "Vessel type: Suezmax (120,000 - 200,000 dwt)",
+    "vesselTypeVlcc": "Vessel type: VLCC (200,000 - 350,000 dwt)",
+    "railcarLoading": "Railcar loading",
+    "railcarUnloading": "Railcar unloading",
+    "truckLoading": "Truck loading",
+    "truckUnloading": "Truck unloading",
+    "truckWeighing": "Truck weighing",
+    "drumFilling": "Drum Filling",
+    "ibcFilling": "IBC filling",
+    "isoContainerLoadingAndUnloading": "ISO container loading & unloading",
+    "makeAndBreakBulk": "Make & Break Bulk",
+    "nitrogenBlanketing": "Nitrogen blanketing",
+    "vaporRecoveryOrBalancing": "Vapor recovery or balancing",
+    "additivationServices": "Additivation services",
+    "blendingServices": "Blending services",
+    "homogenizing": "Homogenizing",
+    "independentSurveyorsLabOnSite": "Independent surveyor's lab on site",
+    "bondedWarehouse": "Bonded warehouse",
+    "fiscalWarehouse": "Fiscal warehouse",
+    "omServices": "O&M Services",
+    "receptionFacilitiesForPreWashSlops":
+      "Reception facilities for pre-wash slops",
+    "additiveInjection": "Additive injection",
+    "productSegregation": "Product segregation",
+    "loadingAndUnloadingRailCars": "Loading and unloading Rail Cars",
+    "filtering": "Filtering",
+    "omServicesN2Supply": "O&M Services / N2 Supply",
+    "crossDockingTransfers": "Cross Docking Transfers",
+    "heating": "Heating",
+    "pipelineDistributionOffsitePlants":
+      "Pipeline distribution to offsite chemicals plants"
+  },
+  "offices": {
+    "regionalOffice": "Regional Office",
+    "terminalBrandsen": "Brandsen + 166 km pipeline",
+    "terminalMaritimaPuertoRosales": "Puerto Rosales",
+    "representativeOffice": "Representative Office",
+    "acuPetroleo": "Porto de Açu",
+    "vitoriaTerminal": "Vitória",
+    "tuxpan": "Tuxpan",
+    "terminalCartagena": "Cartagena",
+    "terminal": "Terminal",
+    "terminalAndRepresentativeOffice": "COASSA",
+    "terminalCallao": "Callao",
+    "terminalEten": "Eten",
+    "terminalChimbote": "Chimbote",
+    "terminalMatarani": "Matarani",
+    "marinePlatformPiscoCamisea": "Pisco",
+    "terminalSupe": "Supe",
+    "terminalSalaverry": "Salaverry",
+    "puertoBahia": "Puerto Bahía",
+    "administrativeOffice": "Administrative Office"
+  },
+  "positions": {
+    "vicePresidentArgentina": "Vice President Argentina",
+    "vicePresidentBrazil": "VP Brazil",
+    "managerMiddleAmerica": "BD Manager Middle America",
+    "vicePresidentMiddleAmerica": "Vice President Middle America",
+    "vicePresidentPeru": "Vice President Peru",
+    "dataManagerDpo": "Encarregado pelo Tratamento de Dados Pessoais (DPO)",
+    "communicationsCoordinator": "Communications Coordinator"
+  },
+  "terminalPage": {
+    "label": "Terminal Page",
+    "tankCapacity": "Tank Capacity",
+    "tanks": "Tanks",
+    "tankTypes": "Tank Types",
+    "tankSizes": "Tank Sizes",
+    "jettyCapacities": "Jetty Capacities",
+    "accessTypes": "Access Types",
+    "draught": "Draught",
+    "berths": "Berths",
+    "products": "Products",
+    "services": "Services",
+    "maritimeFacility": "Maritime facility",
+    "loa": "LOA"
+  },
+  "tankTypes": {
+    "carbonSteel": "Carbon Steel",
+    "mildSteel": "Mild Steel",
+    "coatedSteel": "Coated Steel",
+    "coatedCarbonSteel": "Coated Carbon Steel",
+    "internalFloatingRoof": "Internal Floating Roof"
+  },
+  "maritimeFacility": {
+    "monobuoyPc": "Monobuoy Punta Cigüeña",
+    "monobuoyPa": "Monobuoy Punta Ancla",
+    "jetty": "Jetty",
+    "northBert": "North Berth",
+    "centralBert": "Central Berth",
+    "southBert": "South Berth",
+    "bargeJettyNort": "Barge Jetty North (berth 2 barges at the same time)",
+    "bargeJettySout": "Barge Jetty South (berth 2 barges at the same time)",
+    "vesselJettyNort": "Vessel Jetty North",
+    "vesselJettySout": "Vessel Jetty South",
+    "berth3": "Berth 3",
+    "berth2": "Berth 2",
+    "berth14ForBargeMaintenance": "Berth 1 and 4 for barge maintenance",
+    "multiBouy": "Multibouy",
+    "marineBert": "Marine Berth (off-shore platform)",
+    "displacement": "displacement",
+    "berth905": "Berth 905"
+  },
+  "preSelectedResult": {
+    "petroleumTitle": "Oil Storage",
+    "petroleumText":
+      "OTAMERICA stores and handles petroleum products at the following terminal locations:",
+    "chemicalTitle": "Chemical Storage",
+    "chemicalText":
+      "OTAMERICA stores and handles chemicals at the following terminal locations:",
+    "gasTitle": "Gas Storage",
+    "gasText":
+      "OTAMERICA stores and handles gases at the following terminal locations:",
+    "otherTitle": "Storage of Other Liquids",
+    "otherText":
+      "OTAMERICA stores and handles other liquids at the following terminal locations:",
+    "table": {
+      "region": "Region",
+      "terminals": "Terminals"
+    }
+  },
+  "regulations": {
+    "title": "Procedures & Regulations"
+  },
+  "bulkLiquidHandling": {
+    "title": "Oiltanking Terminais Ltda., Terminal de Vitória",
+    "subtitle1": "ANP: Movimentação de granéis líquidos",
+    "subtitle2": "Histórico de Movimentação",
+    "p1": "Esta página foi especialmente criada para atender as exigências da Resolução ANP 881/2022.",
+    "p3": "Abaixo, acesse os arquivos com as respectivas informações:"
+  },
+  "politics": {
+    "title": "Oiltanking Terminais Ltda., Terminal de Vitória",
+    "subtitle1": "Políticas",
+    "p1": "Estas políticas firmam nosso comprometimento com a qualidade, meio ambiente, saúde e segurança em atendimento às necessidades dos clientes, colaboradores e partes interessadas, visando à melhoria contínua nos processos e produtos.",
+    "p2": "Abaixo, acesse os arquivos com as respectivas informações:"
+  },
+  "hssePolicy": {
+    "title": "Health, Safety, Security & Environmental Policy",
+    "subtitle":
+      "The handling of large volumes of valuable and potentially hazardous liquids calls for responsible and safe operations.",
+    "p1": "We are committed to the safe and efficient operation of all our facilities around the world. Our goal is to prevent all accidents, injuries and occupational illness and to protect the environment. Therefore we continually optimize all our activities with a view to technical, organizational and behavior-based safety, and promote a proactive safety culture.",
+    "p2": "In 2020 we introduced 8 Safety Principles that reflect our beliefs and how it enhances our safety culture and performance. Taking full ownership of safety performance reinforces our commitment to safety as a value that shapes all decision-making at every level of our business. Please read here our <a href='https://otamerica.com/otamerica-ws/controllers/fileDownload.php?name=Oltanking_HSSE_Policy-Statement_ENG_web.pdf' target='_blank'>HSSE policy</a>",
+    "p3": "The management will visibly and rigorously support the implementation of this policy. We expect the support of all employees, contractors and others working for us, so that our HSSE performance will continue to earn us the trust and confidence of our customers, neighbors and the community at large."
+  },
+  "healthAndSafety": {
+    "title": "Health & Safety",
+    "subtitle":
+      "Excellence in health and safety is an important value of our company. We aim to prevent all accidents, injuries and occupational illness. We are dedicated to harmonize company-wide internal regulations and be more stringent about establishing the use of the best available techniques.",
+    "riskAssessment": "Risk Assessment",
+    "p1": "Due to the variety of activities within the group of companies it is important to evaluate all risks individually. Based on this analysis we implement tailor-made measures and establish tailor-made standards and work instructions. To learn from accidents, our engagement goes beyond purely statistical evaluations. Accidents are analyzed in detail to identify company-wide potential for improvement. In addition, our proactive approach is supported by promotion campaigns that are designed to increase risk awareness in the workaday routine.",
+    "p2": "We continuously improve the contractors’ HSSE standards. For this purpose, a manual on contractor safety was developed e.g. at OTAMERICA. A web-based database assists the sites in selecting contractors based on predefined criteria.",
+    "preventiveMedicalCare": "Preventive Medical Care",
+    "p3": "With regard to medical care, most employees based in Germany are entitled to a free preventive medical check-up every two to three years. Our worldwide sites are encouraged to develop comparable programs locally.",
+    "healthAndSafetyBusinessTrips": "Health & Safety on Business Trips",
+    "p4": "Many of our employees travel as part of their work for our company. Travel safety is therefore a further important issue on our HSSE agenda. In order to provide the best medical advice and services for employees on their travels, as well as for expats, our holding company Marquard & Bahls has signed a service contract with a leading provider of medical assistance, international healthcare, and security services. ",
+    "p5": "To support our employees in planning international business trips, there is also a group-wide manual on travel safety and a web-based airline-vetting database, which is updated daily.",
+    "fireProtection": "Fire Protection",
+    "p6": "Past incidents in our industry have shown that technical measures, organizational processes, and rules are not always sufficient to prevent fires. That is why it is very important to us to increase our staff’s risk awareness and to ensure a quick response to emergency situations by performing regular drills.",
+    "p7": "OTAMERICA has prepared a mandatory Fire Protection Standard consisting of company-wide minimum requirements that often go beyond legal requirements."
+  },
+  "security": {
+    "title": "Security",
+    "subtitle":
+      "Many of our facilities store or handle hazardous products. To prevent theft, vandalism and even terrorism we continuously identify and analyze all potential security threats.",
+    "securityOurFacilities": "Security of Our Facilities",
+    "p1": "Each company has implemented adequate counter-measures to secure the security of our facilities in line with the local, individual security risks. The measures comprise fencing, camera surveillance, motion detectors and access-control systems.",
+    "p2": "An important part of our security philosophy is the thorough training and supervision of all third parties (e.g. truck drivers, contractors, surveyors) who work at the terminal.",
+    "p3": "All our storage facilities handling ships on international voyages are in compliance with the <a href='http://www.imo.org/en/OurWork/Pages/Home.aspx' target='_blank'>International Ship and Port Facility Security (ISPS) Code</a> issued by the International Maritime Organization (IMO).",
+    "dataProtection": "Data Protection",
+    "p4": "The technological developments of our time are accompanied by an ever-growing amount of data files and their interlinking. Besides the undisputed advantages, this also brings new risks. In accordance with our idea of integrity and social responsibility (see also Marquard & Bahls Code of Conduct), we give a high priority to the protection of personal data – regardless of whether it is customer, supplier or employee data, or in which country the data are used.",
+    "p5": "Because technological, national and international regulatory conditions are subject to continuous development, we see it as our task to keep developing our risk management and hence our security measures in this connection just as continuously.",
+    "p6": "Due to the increasing relevance of social media in business and the associated risks for privacy and other rights, we have, for example, developed the Marquard & Bahls Social Media Guideline."
+  },
+  "newsPage": {
+    "title": "News",
+    "subtitle": "Subtitle"
+  },
+  "puertoRosales": {
+    "title": "Oiltanking Ebytem S.A., Puerto Rosales Expansion Project",
+    "subtitle": "Open Contest",
+    "p1": "Rio de Janeiro, Brazil - Oiltanking Logística Brasil Ltda is pleased to announce that it has successfully concluded the negotiations to constitute a new joint venture on December 15, 2022, which shall be responsible for the development, construction, and operation of a greenfield terminal with 120,000 cbm capacity for refrigerated LPG storage.",
+    "p2": "The joint venture company shall be constituted by Oiltanking Logística (42.5%), Grupo Edson Queiroz (42.5%) and Copa Energia (15%) and headquartered in the City of Ipojuca, State of Pernambuco.",
+    "p3": "The terminal will be located in Port of Suape and because of its size, it will be the largest refrigerated LPG onshore storage in the country and the only one capable to receive fully charged VLGC cargos. It will attend the LPG import demand of the Northeastern states in Brazil.",
+    "p4": "The greenfield project shall be submitted and is conditioned to the approval of the Brazilian antitrust entity (Cade). The FID is estimated to take place by the end of 2023, once all conditions set to establish the project’s viability are fulfilled, and the terminal operations commencement is expected by Q1-2026.",
+    "p5": "<strong>Oiltanking Logística Brasil Ltda</strong> is a fully owned subsidiary of Oiltanking GmbH and it is located in Rio de Janeiro, Brazil.",
+    "p6": "<strong>Grupo Edson Queiroz</strong> is headquartered in Ceará and encompasses several companies operating in various sectors of the Brazilian economy, including the distribution of LPG, through its subsidiary Nacional Gás Butano Distribuidora."
+  },
+  "terminalSuape": {
+    "title":
+      "Oiltanking Logística Brasil signed JV Agreement for a greenfield LPG terminal in Suape",
+    "subtitle":
+      "Oiltanking Logística Brasil Ltda has successfully concluded the negotiations with Grupo Edson Queiroz and Copa Energia to constitute a JV that shall develop a greenfield terminal for LPG refrigerated storage with a 120,000 cbm capacity at the Port of Suape, PE, Brazil.",
+    "p1": "Port of Suape, Brazil - Oiltanking Logística Brasil Ltda is pleased to announce that it has successfully concluded the negotiations to constitute a new joint venture on December 15, 2022, which shall be responsible for the development, construction, and operation of a greenfield terminal with 120,000 cbm capacity for refrigerated LPG storage.",
+    "p2": "The joint venture company shall be constituted by Oiltanking Logística (42.5%), Grupo Edson Queiroz (42.5%) and Copa Energia (15%) and headquartered in the City of Ipojuca, State of Pernambuco.",
+    "p3": "The terminal will be located in Port of Suape and because of its size, it will be the largest refrigerated LPG onshore storage in the country and the only one capable to receive fully charged VLGC cargos. It will attend the LPG import demand of the Northeastern states in Brazil.",
+    "p4": "The greenfield project shall be submitted and is conditioned to the approval of the Brazilian antitrust entity (Cade). The FID is estimated to take place by the end of 2023, once all conditions set to establish the project’s viability are fulfilled, and the terminal operations commencement is expected by Q1-2026.",
+    "p5": "<strong>Oiltanking Logística Brasil Ltda</strong> is a fully owned subsidiary of Oiltanking GmbH and it is located in Rio de Janeiro, Brazil.",
+    "p6": "<strong>Grupo Edson Queiroz</strong> is headquartered in Ceará and encompasses several companies operating in various sectors of the Brazilian economy, including the distribution of LPG, through its subsidiary Nacional Gás Butano Distribuidora.",
+    "p7": "<strong>Copa Energia</strong>  is a company focused on sustainable energy solutions based in the State of São Paulo, owning the brands Copagaz e Liquigás which are specialized in the distribution of LPG in Brazil."
+  },
+  "documentForm": {
+    "fullname": "Fullname",
+    "enterprise": "Enterprise",
+    "email": "Email",
+    "phone": "Phone",
+    "subtitle": "Download Form",
+    "submit": "Send",
+    "fullnameRequired": "Fullname required.",
+    "nameInvalid": "Only characters and spaces are allowed.",
+    "emailInvalid": "Email invalid.",
+    "emailRequired": "Email Required.",
+    "enterpriseRequired": "Enterprise required.",
+    "phoneRequired": "Phone required",
+    "phoneInvalid": "Phone invalid.",
+    "requestSent":
+      "Request Sent. In the next few hours you will receive a link to download the file.",
+    "timeReminder": "Remember that the link will be available for 72 hours.",
+    "fileRemoved": "The link has been removed. Ask for a new download request.",
+    "fileNotFound": "File not found.",
+    "requestApproved": "Request Approved."
+  },
+  "news": {
+    "jdpProgram": "JDP Program",
+    "terminalSuape":
+      "Oiltanking Logística Brasil signed JV Agreement for a greenfield LPG terminal in Suape",
+    "otamericaUnited":
+      "OTAMERICA Brasil joins two large companies to develop a LPG terminal"
+  }
+}

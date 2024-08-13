@@ -21,7 +21,7 @@ $db_host_name = '127.0.0.1';
 $db_port = '3306';
 $db_database = 'w290045_otam';
 $db_username = 'root';
-$db_password = ''; 
+$db_password = 'mysql'; 
 
 $config['secure']['database']['connection'] = "mysql:dbname=$db_database;host=$db_host_name;port=$db_port;";
 $config['secure']['database']['username'] = $db_username;
