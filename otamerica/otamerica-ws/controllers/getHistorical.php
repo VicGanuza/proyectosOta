@@ -2,10 +2,8 @@
 require_once('../include/header.php');
 require "../inc/documents.php";
 
-$filtro = $_GET;
-
 $hist = new Documents();
-$history = $hist->getHistoryDocuments($filtro);
+$history = $hist->getHistoryDocuments();
 
 if (!$history) {
   http_response_code(400);

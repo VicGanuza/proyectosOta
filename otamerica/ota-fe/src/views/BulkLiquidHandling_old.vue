@@ -48,6 +48,28 @@
             </a>
           </li>
         </ul>
+         <!-- <v-row>
+          <v-select
+            class="pa-2"
+            :items="Years"
+            :label="$t('year')"
+            v-model="filtro.year"
+            item-title="name"
+            item-value="id"
+            single-line
+            @update:modelValue="getMonths()"
+          ></v-select>
+          <v-select
+            class="pa-2"
+            :items="MonthsTran"
+            :label="$t('monthLabel')"
+            v-model="filtro.month"
+            item-title="name"
+            item-value="id"
+            single-line
+          ></v-select>
+         @update:modelValue="getHistoryDocuments()" 
+        </v-row>-->
         <v-list dense max-width="500">
           <v-header class="text--red text--accent4 font-weight-black my-5">
             {{ $t("bulkLiquidHandling.subtitle2") }}
@@ -66,6 +88,7 @@
                 <v-list-item-title v-else class="my-1">{{
                   $filters.dateFormat(item)
                 }}</v-list-item-title>
+                <!--  /* | formatDate REVISAR FILROS V3 */ -->
                 <v-list-item-subtitle>
                   ({{ item.type }} / {{ item.size }})
                 </v-list-item-subtitle>
@@ -89,18 +112,52 @@ import { mapGetters, mapActions } from "vuex";
 
 export default {
   name: "BulkLiquidHandling",
+  data: () => {
+    return {
+      filtro: {
+        year: "",
+        month: "",
+      },
+    };
+  },
   created: function () {
     this.ResetState();
     this.GetInicialState();
+    this.filtro.year = this.CurrentYear;
+    this.filtro.month = 0;
     this.getHistoryDocuments();
     this.getDocuments();
+    /* 
+    this.UpdateYears();
+    console.log(this.Months);
+    if (this.Years.length > 0) {
+      this.filtro.year = this.Years[0].id;
+    } else {
+      this.filtro.year = 0;
+    }
+    this.getMonths();
+     */
   },
   computed: {
     ...mapGetters({
       HistoricalMovements: "StateHistoricalMovements",
       HistoricalLoading: "StateHistoricalLoading",
+      Years: "StateYears",
+      Months: "StateMonths",
       Documents: "StateAnpDocuments",
+      CurrentYear: "StateCurrentYear",
     }),
+    MonthsTran() {
+      let arr = [];
+      if (this.Months != null) {
+        this.Months.map((el) => {
+          el.name = this.$t(el.lang_key);
+          return el;
+        });
+        arr = this.Months;
+      }
+      return arr;
+    },
     appPath() {
       return process.env.VUE_APP_RUTA_API;
     },
@@ -108,7 +165,9 @@ export default {
   methods: {
     ...mapActions([
       "GetAnpDocuments",
+      "UpdateYears",
       "GetHistoricalMovements",
+      "UpdateMonths",
       "ResetState",
       "GetInicialState",
     ]),
@@ -117,7 +176,23 @@ export default {
     },
 
     async getHistoryDocuments() {
-      await this.GetHistoricalMovements();
+      console.log(this.filtro);
+      await this.GetHistoricalMovements(this.filtro);
+    },
+
+    getMonths() {
+      this.filtro.month = 0;
+      this.UpdateMonths(this.filtro.year);
+      this.getHistoryDocuments();
+    },
+  },
+  filters: {
+    formatDate(value) {
+      if (value) {
+        return value.year + "-" + value.month;
+      }
+
+      return "";
     },
   },
 };

@@ -44,7 +44,33 @@ class Documents {
       return false;
     }
   }
-  function getHistoryDocuments($filtro) {
+  function getHistoryDocuments() {
+    try {
+      $sql = "Select *, DATE_FORMAT(updated, '%d/%m/%Y') as fecha from historical_movements where updated=(select max(updated) from historical_movements)";
+
+      $q = $this->conn->prepare($sql);
+      $q->execute([]);
+
+      $row = $q->fetchAll(PDO::FETCH_ASSOC);
+      return $row;
+    }catch (PDOException $e){
+      error_log($e);
+      return false;
+    }
+    /*try {
+
+      $sql = "SELECT * FROM historical_movements hm order by hm.date desc";
+
+      $q = $this->conn->prepare($sql);
+      $q->execute([]);
+      $rows = $q->fetchAll(PDO::FETCH_ASSOC);
+      return $rows;
+    }catch (PDOException $e) {
+      error_log($e);
+      return false;
+    }*/
+  }
+  function getHistoryDocuments_old($filtro) {
     try {
       $op[]=$filtro['y'];
       //if ($filtro['y'] != 0) {
@@ -61,7 +87,7 @@ class Documents {
         $q = $this->conn->prepare($sql);
         $q->execute();
       } */
-      
+
       $row = $q->fetchAll(PDO::FETCH_ASSOC);
       return $row;
     }catch (PDOException $e){
